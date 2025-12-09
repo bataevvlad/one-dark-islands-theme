@@ -45,7 +45,7 @@
     ]]></change-notes>
 
     <!-- Requires 2025.3 or later for Islands UI support -->
-    <idea-version since-build="243"/>
+    <idea-version since-build="253"/>
 
     <!-- Compatible with all JetBrains IDEs -->
     <depends>com.intellij.modules.platform</depends>
