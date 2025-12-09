@@ -1,0 +1,56 @@
+<idea-plugin>
+    <id>com.github.bataevvlad.one-dark-islands-theme</id>
+    <name>One Dark Islands Theme</name>
+    <version>1.0.0</version>
+    <vendor email="bataevvlad@gmail.com" url="https://github.com/bataevvlad">Vladislav Bataev</vendor>
+
+    <description><![CDATA[
+    <h2>One Dark Islands Theme</h2>
+    <p>The beloved <b>One Dark</b> color scheme, beautifully adapted for the new <b>JetBrains Islands UI</b> (2025.3+).</p>
+    
+    <h3>Features</h3>
+    <ul>
+        <li>Full Islands UI support with modern rounded corners and spacing</li>
+        <li>Complete One Dark color palette throughout the entire IDE</li>
+        <li>Carefully tuned editor syntax highlighting</li>
+        <li>Consistent styling for all UI elements including project tabs, toolbars, and panels</li>
+        <li>Optimized for both productivity and aesthetics</li>
+    </ul>
+    
+    <h3>Color Palette</h3>
+    <ul>
+        <li>Background: #282c34</li>
+        <li>Foreground: #abb2bf</li>
+        <li>Accent: #61afef</li>
+        <li>Strings: #98c379</li>
+        <li>Keywords: #c678dd</li>
+        <li>Functions: #61afef</li>
+        <li>Variables: #e06c75</li>
+    </ul>
+    
+    <p>Based on the original One Dark theme from Atom, adapted for JetBrains IDEs with Islands UI.</p>
+    
+    <p><a href="https://github.com/bataevvlad/one-dark-islands-theme">GitHub Repository</a></p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <h3>1.0.0</h3>
+    <ul>
+        <li>Initial release</li>
+        <li>Full Islands UI support</li>
+        <li>Complete One Dark color scheme</li>
+        <li>Project tabs styling for header bar</li>
+        <li>Editor syntax highlighting</li>
+    </ul>
+    ]]></change-notes>
+
+    <!-- Requires 2025.3 or later for Islands UI support -->
+    <idea-version since-build="243"/>
+
+    <!-- Compatible with all JetBrains IDEs -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.bataevvlad.one-dark-islands" path="/one_dark_islands.theme.json"/>
+    </extensions>
+</idea-plugin>
