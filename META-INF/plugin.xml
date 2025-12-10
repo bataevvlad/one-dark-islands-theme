@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.github.bataevvlad.one-dark-islands-theme</id>
     <name>One Dark Islands Theme</name>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <vendor email="bataevvlad@gmail.com" url="https://github.com/bataevvlad">Vladislav Bataev</vendor>
 
     <description><![CDATA[
@@ -34,6 +34,14 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    <h3>1.0.2</h3>
+    <ul>
+        <li>Added plugin icon for marketplace</li>
+    </ul>
+    <h3>1.0.1</h3>
+    <ul>
+        <li>Fixed WebStorm version compatibility</li>
+    </ul>
     <h3>1.0.0</h3>
     <ul>
         <li>Initial release</li>
